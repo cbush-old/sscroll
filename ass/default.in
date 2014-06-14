@@ -1,0 +1,19 @@
+up up  
+down down     
+left left  
+right right  
+run lshift 
+jump z 
+shoot x 
+whip c  
+zoom+ = 
+zoom- - 
+camera_up 3 
+camera_left a 
+camera_down 1  
+camera_right d 
+camera_in w  
+camera_out s 
+camrotl q 
+camrotr e 
+

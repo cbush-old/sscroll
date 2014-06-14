@@ -1,0 +1,15 @@
+#version 130
+
+uniform mat4 projection;
+uniform mat4 modelview;
+
+in vec4 position;
+in vec2 texin;
+out vec2 texcoord;
+
+void main() {
+
+  texcoord = texin;
+  gl_Position = projection * modelview * position;
+  
+}
